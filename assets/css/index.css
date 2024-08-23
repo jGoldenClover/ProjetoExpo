@@ -68,6 +68,7 @@ header{
 }
 .sectionCachorros {
     margin-top: 100px;
+    margin-left: 100px;
     width: 100% ;
     height: auto;
     
@@ -84,14 +85,26 @@ button {
     border-radius: 20px;
     width: 100px;
     height: 60px;
-    background-color:#497599 ;
     border: #000 1px solid;
-
-    margin: 10px;
+    background-color: #fff;
+    /* background-color:#497599 ; */
     
+    
+    
+}
+td , td {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px;
+    border: 1px solid #000;
+    backdrop-filter: blur(2px);
 }
 
 button:hover {
+    border: #004b58 1px solid;
+    color: white;
+    background-color:#5a90bd ;
     animation-name: tocarCor ;
     animation-duration: 4s;
     width: 105px;
