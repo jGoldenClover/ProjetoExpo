@@ -1,0 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(../img/EasterEgg.jpg);
+    background-size: cover;
+}
