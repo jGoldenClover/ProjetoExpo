@@ -65,8 +65,6 @@ function main(event) {
 
     linha = lerPaginaEPegarBanco(numeroPaginaAtual , )
     
-    
-    
     // console.log(typeof(tdDesc))
     // console.log(typeof(tdName))
 
@@ -78,7 +76,16 @@ function main(event) {
 const dogGenerate = document.getElementById('dog-random');
 dogGenerate.addEventListener('submit', main);
 
+function googleTranslateElementInit()
+{
+    new google.translate.TranslateElement({
+        pageLanguage: 'en', //Idioma principal da página
+        includedLanguages: 'pt,en', //Idiomas que pode traduzir
+    }, 'google_translate_element'); //google_translate_element é o elemento no div
+}
 
-
+googleTranslateElementInit()
 // response = fazGet(url)
 // response.blob() --- converte o arquivo em binário, por exemplo, para uma imagem você converte o link para binário e depois
+
+
