@@ -70,7 +70,7 @@ header{
     flex-direction: row;
     cursor:pointer;
     backdrop-filter: blur(2px);
-
+    margin-left: 20px ;
     position: bottom ;
     width: 100%;
     height: auto ;
